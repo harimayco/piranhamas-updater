@@ -1,89 +1,58 @@
-This repo contains the **bare minimum code** to have an auto-updating Electron app using [`electron-updater`](https://github.com/electron-userland/electron-builder/tree/master/packages/electron-updater) with releases stored on GitHub.
 
-If you can't use GitHub, you can use other providers:
 
-- [Complete electron-updater HTTP example](https://gist.github.com/iffy/0ff845e8e3f59dbe7eaf2bf24443f104)
-- [Complete electron-updater from gitlab.com private repo example](https://gist.github.com/Slauta/5b2bcf9fa1f6f6a9443aa6b447bcae05)
+# [PiranhamasBOT AI](https://piranhamasbot.com/ref/RENDYHHIWP)
+<img width="1920" height="1025" alt="image" src="https://github.com/user-attachments/assets/f5427cb4-800b-437f-a2e0-fd52921a1c22" />
+**The Ultimate All-in-One Automation Powerhouse for SMEs & Content Creators.**
+Stop trading your time for clicks. Mass post content, dominate Google search results, farm accounts, and conquer YouTube, TikTok, and Reels on autopilot.
 
-**NOTE:** If you want to run through this whole process, either fork this repo or [start your own from a template](https://github.com/iffy/electron-updater-example/generate). Then replace all instances of `iffy` with your GitHub username before doing the following steps.
+**Let the robot do the heavy lifting while you enjoy the results.**
 
-1. For macOS, you will need a code-signing certificate.
+**Software Desktop All-in-One untuk UMKM dan Konten Kreator**. Post massal, dominasi pencarian Google, Ternak Akun, Youtube, Tiktok, dan Reels. Biarkan robot bekerja, Anda nikmati hasilnya.
 
-    Install Xcode (from the App Store), then follow [these instructions](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html#//apple_ref/doc/uid/TP40012582-CH31-SW6) to make sure you have a "Developer ID Application" certificate.  If you'd like to export the certificate (for automated building, for instance) [you can](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html#//apple_ref/doc/uid/TP40012582-CH31-SW7).  You would then follow [these instructions](https://www.electron.build/code-signing).
-   
-    This example application is set up to perform code-signing and notarization on Mac OS provided that a `Developer ID
-    Application` certificate is installed in the default keychain.  The following environment variables are important for the signing process:
+### [👉 Get Exclusive Pricing Here](https://piranhamasbot.com/ref/RENDYHHIWP)
+### [👉 Daftar Disini & Dapatkan Harga Khusus (Terbatas)](https://piranhamasbot.com/ref/RENDYHHIWP)
 
-    - `CSC_IDENTITY_AUTO_DISCOVERY` - controls whether `electron-builder` tries to sign the application; default is `true`, set to `false` to skip signing
-    - `APPLE_ID` - the Apple ID to use for notarization (required for signing).
-    - `APPLE_ID_PASSWORD` - the password to use with the specified Apple ID for notarization (required for signing).  Apple recommends setting up an app-specific password to safeguard the Apple ID password (see [Apple Support](https://support.apple.com/en-us/HT204397)) for more information.
+----------
 
-    To enable code-signing and notarization:
+**👀 See it in Action:**
+-   **Demo:** [Watch Video](https://www.youtube.com/watch?v=-UMuv57UzbA)
+-   **YouTube Channel:** [@PiranhamasBOTDesktop](https://www.youtube.com/@PiranhamasBOTDesktop)
+-   **WhatsApp Support:** [+6285155224655](https://wa.me/6285155224655)
 
-        export CSC_IDENTITY_AUTO_DISCOVERY="true"
-        export APPLE_ID="<your Apple ID>"
-        export APPLE_ID_PASSWORD="<your Apple Password>"
+----------
 
-2. Adjust `package.json` if needed.
+### 🚀 Key Features
+-   **Stealth Mode:** Run fully Headless or Headfull for maximum discretion.
+-   **Auto-Solve Captcha:** Bypasses Google Captcha V3 automatically (**Free!**).
+-   **Multi-Platform Ready:** Works seamlessly with Google, Facebook, Blogger, YouTube, and more.
+-   **Visual Automation Builder:** Create your own bots with a Custom Drag-and-Drop Editor.
+-   **Advanced Profile Manager:** Run bots using specific Chrome Profiles or JSON Cookies.
+-   **Chrome Recorder Import:** Easily import flows to build automation instantly.
+-   **Smart Scheduling:** Run tasks on a schedule or loop them continuously.
+-   **Built-in Data Editor & Cookie Generator.**
+-   **Spintax Support:** Keep your content unique and dynamic.
+    
 
-    By default, `electron-updater` will try to detect the GitHub settings (such as the repo name and owner) from reading the `.git/config` or from reading other attributes within `package.json`.  If the auto-detected settings are not what you want, configure the [`publish`](https://github.com/electron-userland/electron-builder/wiki/Publishing-Artifacts#PublishConfiguration) property as follows:
+### ✨ Piranhamas AI Bonuses
+Includes a suite of AI tools to supercharge your content creation:
+-   Spintax Generator
+-   Image-to-Video (VEO 3)
+-   Text-to-Image Generation
+-   And Many More
 
-        {
-            ...
-            "build": {
-                "publish": [{
-                    "provider": "github",
-                    "owner": "iffy",
-                    "repo": "electron-updater-example"
-                }],
-                ...
-            }
-        }
+### 🎯 Perfect For:
+-   SEO Specialists
+-   Web Scrapers
+-   Account Farmers & Managers
+-   High-Volume Marketers
+-   Content Creators
 
-3. Install necessary dependencies with:
+Preview: 
+<img width="1920" height="1023" alt="image" src="https://github.com/user-attachments/assets/93a8a23e-8e08-48f6-bd35-79505c1613a9" />
+Bot Editor
+<img width="1492" height="1007" alt="image" src="https://github.com/user-attachments/assets/eb86f113-758a-4887-a69e-7e5bc5587165" />
 
-        yarn
+Fitur AI :
+<img width="1920" height="1080" alt="2025-12-15_04-56" src="https://github.com/user-attachments/assets/697b66f6-629a-4008-89bc-0aabede16258" />
+<img width="1920" height="1080" alt="2025-12-15_04-56_1" src="https://github.com/user-attachments/assets/057ce1ec-c23d-4817-93b8-7a3c3657df5d" />
 
-   or
-
-        npm install
-
-4. Generate a GitHub access token by going to <https://github.com/settings/tokens/new>.  The access token should have the `repo` scope/permission.  Once you have the token, assign it to an environment variable
-
-    On macOS/linux:
-
-        export GH_TOKEN="<YOUR_TOKEN_HERE>"
-
-    On Windows, run in powershell:
-
-        [Environment]::SetEnvironmentVariable("GH_TOKEN","<YOUR_TOKEN_HERE>","User")
-
-    Make sure to restart your IDE/Terminal to inherit latest env variable.
-
-5. Publish for your platform with:
-
-        electron-builder -p always
-
-   or
-
-        npm run publish
-
-   If you want to publish for more platforms, edit the `publish` script in `package.json`.  For instance, to build for Windows and macOS:
-
-        ...
-        "scripts": {
-            "publish": "electron-builder --mac --win -p always"
-        },
-        ...
-
-   NOTE: The Mac OS signing/notarization process must be run on Mac OS.
-
-6. Release the release on GitHub by going to <https://github.com/YOUR_GIT_HUB_USERNAME/electron-updater-example/releases>, editing the release and clicking "Publish release."
-
-7. Download and install the app from <https://github.com/YOUR_GIT_HUB_USERNAME/electron-updater-example/releases>.
-
-8. Update the version in `package.json`, commit and push to GitHub.
-
-9. Do steps 5 and 6 again.
-
-10. Open the installed version of the app and see that it updates itself.
