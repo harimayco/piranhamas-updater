@@ -2,6 +2,7 @@
 
 # [PiranhamasBOT AI](https://piranhamasbot.com/ref/RENDYHHIWP)
 <img width="1920" height="1025" alt="image" src="https://github.com/user-attachments/assets/f5427cb4-800b-437f-a2e0-fd52921a1c22" />
+
 **The Ultimate All-in-One Automation Powerhouse for SMEs & Content Creators.**
 Stop trading your time for clicks. Mass post content, dominate Google search results, farm accounts, and conquer YouTube, TikTok, and Reels on autopilot.
 
@@ -17,7 +18,7 @@ Stop trading your time for clicks. Mass post content, dominate Google search res
 **👀 See it in Action:**
 -   **Demo:** [Watch Video](https://www.youtube.com/watch?v=-UMuv57UzbA)
 -   **YouTube Channel:** [@PiranhamasBOTDesktop](https://www.youtube.com/@PiranhamasBOTDesktop)
--   **Email:**: [rendyharimayco@gmail.com](mailto:rendyharimayco@gmail.com)
+-   **Email:** [rendyharimayco@gmail.com](mailto:rendyharimayco@gmail.com)
 -   **WhatsApp Support:** [+6285155224655](https://wa.me/6285155224655)
 
 ----------
