@@ -51,6 +51,9 @@ Preview:
 <img width="1920" height="1023" alt="image" src="https://github.com/user-attachments/assets/93a8a23e-8e08-48f6-bd35-79505c1613a9" />
 Bot Editor
 <img width="1492" height="1007" alt="image" src="https://github.com/user-attachments/assets/eb86f113-758a-4887-a69e-7e5bc5587165" />
+Bot Scheduler
+<img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/1f2c250d-1a7f-4c97-a163-a2bc5f68d687" />
+
 
 Fitur AI :
 <img width="1920" height="1080" alt="2025-12-15_04-56" src="https://github.com/user-attachments/assets/697b66f6-629a-4008-89bc-0aabede16258" />
