@@ -17,6 +17,7 @@ Stop trading your time for clicks. Mass post content, dominate Google search res
 **👀 See it in Action:**
 -   **Demo:** [Watch Video](https://www.youtube.com/watch?v=-UMuv57UzbA)
 -   **YouTube Channel:** [@PiranhamasBOTDesktop](https://www.youtube.com/@PiranhamasBOTDesktop)
+-   **Email:**: [rendyharimayco@gmail.com](mailto:rendyharimayco@gmail.com)
 -   **WhatsApp Support:** [+6285155224655](https://wa.me/6285155224655)
 
 ----------
